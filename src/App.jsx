@@ -60,7 +60,7 @@ const handleSubmit = async (event) => {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <a href="#home" className="flex items-center gap-3">
             <img
-              src="/logo.png"
+              src={`${import.meta.env.BASE_URL}logo.png`}
               alt="Логотип Hajime Dojo"
               className="h-10 w-10 object-cover rounded-full border border-white/10 bg-black"
               />
